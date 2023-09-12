@@ -14,16 +14,12 @@ body{
 }
 
 .flex-item1{
-    background-image: url(bg.png);
-    background-size: 100;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
+
     font-size: x-large;
     color: aliceblue;
     font-style: oblique;
-    width: 100%;
-    /* border-style: solid; */
+    flex: 1 1 0;
+    width: 0;
     border-width: 1px;
     border-color: white;
     margin: 1px 10px 1px 50px;
@@ -80,6 +76,10 @@ body{
 
 }
 .flex-container2{
+    background-image: url(bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: 0;
     display: flex;
     flex-wrap: nowrap;
@@ -87,6 +87,7 @@ body{
     align-items: center;
     border-width: 1px;
     border-color: white;
+    flex: 1 1 0px;
 
 }
 .flex-item{
