@@ -1,0 +1,132 @@
+
+body{
+
+    /* background-image: url(img1.jpg); */
+    background-color: white;
+}
+.flex-navigation{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.flex-item1{
+    background-image: url(bg.png);
+    background-size: 100;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    font-size: x-large;
+    color: aliceblue;
+    font-style: oblique;
+    width: 100%;
+    /* border-style: solid; */
+    border-width: 1px;
+    border-color: white;
+    margin: 1px 10px 1px 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+
+    background-color: black;
+    background-size: 100%;
+    background-image: url(bg.png);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .navbar a {
+    font-size: xx-large;
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.feat{
+    width: 100%;
+    margin-left: auto;
+    margin-right: 0%;
+    margin-top: 100px;
+}
+.logo{
+    width: 5%;
+}  
+
+.flex-container{
+    background-image: url(bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-width: 1px;
+    border-color: white;
+
+}
+.flex-container2{
+    background-position: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-width: 1px;
+    border-color: white;
+
+}
+.flex-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: x-large;
+    color: aliceblue;
+    font-style: oblique;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+.flex-item3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    font-style: oblique;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.contact{
+    background-image: url(bg.png);
+    background-size: 100%;
+    color: white;
+    display: flex;
+}
+
+h2{
+    font-size: xx-large;
+    
+    color: black
+}
+
+button{
+    font-size: larger;
+}
